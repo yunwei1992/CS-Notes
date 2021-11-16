@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-16T07:50:42.771Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="OTNXsJ3iq3VjkW4tFUdq" version="15.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-16T07:52:15.611Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="a3lw5ZgHvuRYoOPqDpGD" version="15.2.9" type="github">
   <diagram id="uI4qPGuupl-SVxVegjhv" name="Page-1">
     <mxGraphModel dx="3251" dy="4306" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -54,19 +54,19 @@
           <mxGeometry x="960" y="-1620" width="70" height="100" as="geometry" />
         </mxCell>
         <mxCell id="_NyD06ATuHWjeCPHSx0b-45" value="&lt;font size=&quot;1&quot;&gt;&lt;b style=&quot;font-size: 17px&quot;&gt;2. Once we synchronize the data, there will be incremental data of business tables in the dataphin platform. We can use the data &lt;br&gt;of this table by adding DS = yesterday&#39;s date to the associated condition. such as table&#39;s ds = 20210101&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="510" y="-1520" width="1050" height="40" as="geometry" />
+          <mxGeometry x="510" y="-1510" width="1050" height="40" as="geometry" />
         </mxCell>
         <mxCell id="_NyD06ATuHWjeCPHSx0b-46" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;" vertex="1" parent="1">
-          <mxGeometry x="960" y="-1460" width="70" height="100" as="geometry" />
+          <mxGeometry x="960" y="-1450" width="70" height="100" as="geometry" />
         </mxCell>
         <mxCell id="_NyD06ATuHWjeCPHSx0b-47" value="&lt;font style=&quot;font-size: 17px&quot;&gt;&lt;b&gt;3. All in all, the historical data of the business library will not be synchronized to the dataphin big data processing platform.&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="510" y="-1345" width="1010" height="20" as="geometry" />
+          <mxGeometry x="510" y="-1330" width="1010" height="20" as="geometry" />
         </mxCell>
         <mxCell id="_NyD06ATuHWjeCPHSx0b-48" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;" vertex="1" parent="1">
           <mxGeometry x="960" y="-1290" width="70" height="100" as="geometry" />
         </mxCell>
         <mxCell id="_NyD06ATuHWjeCPHSx0b-49" value="&lt;font&gt;&lt;b style=&quot;font-size: 17px&quot;&gt;4. &lt;/b&gt;&lt;span style=&quot;font-size: 17px&quot;&gt;&lt;b&gt;We use these incremental data (updateAt yesterday&#39;s data), and those underlying data (such as commodity tables, category tables, etc.), &lt;br&gt;to associate queries, and finally generate the data of the result table, the result table contains all the fields required for offline files.&lt;/b&gt;&lt;/span&gt;&lt;b style=&quot;font-size: 17px&quot;&gt;.&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="510" y="-1165" width="1140" height="40" as="geometry" />
+          <mxGeometry x="510" y="-1170" width="1140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="_NyD06ATuHWjeCPHSx0b-51" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;" vertex="1" parent="1">
           <mxGeometry x="960" y="-1110" width="70" height="100" as="geometry" />
